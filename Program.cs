@@ -19,7 +19,7 @@ namespace Algorithms
 
             nums.Sort();
             var arr = nums.ToArray();
-            var idx = arr.TernarySearch(val);
+            var idx = arr.InterpolationSearch(val);
             PrintArray(arr);
             Console.WriteLine($"Found at index [{idx}]");
         }
